@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="plugin/fontawesome/all.min.css" />
+    <link rel="stylesheet" href="plugin/slick.js/slick.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@300;600&family=Roboto:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/header-footer.css" />
+    <link rel="stylesheet" href="sass/catalog.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="header-top">
+          <div class="ht-current">
+            <div class="ht-content">
+              Dried fruits, nuts and oils
+            </div>
+            <div class="ht-contact">
+              <a href="tel:614-7343-3254" class="ht-contact-tel"
+                >+614 7343 3254</a
+              ><br />
+              <a href="https://carera@gmail.com" class="ht-contact-email"
+                >Carera@gmail.com</a
+              >
+            </div>
+            <div class="main-logo">
+              <a href="index.html">
+                <img src="image/logo.svg" alt="Carera Logo" />
+              </a>
+            </div>
+            <div class="ht-user-shop">
+              <img src="icon/user.svg" alt="User Menu" class="ht-user" />
+              <img
+                src="icon/basket.svg"
+                alt="Shopping Basket"
+                class="ht-shop"
+              />
+            </div>
+            <div class="ht-lang-change">
+              <div class="lang-eng lang-toggle">Eng</div>
+              <div class="lang-pol">Pol</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="ht-navbar">
+        <div class="container">
+          <div class="ht-nav-main">
+            <div class="mmenu-openi-box">
+              <img
+                src="icon/popup-close.svg"
+                alt="Menu icon"
+                class="mmenu-icon-close"
+              />
+            </div>
+            <ul class="mmenu-list">
+              <li class="mmenu-catalog">
+                <a href="catalog.html">catalog</a>
+              </li>
+              <li>
+                <a href="#home-sale">sale</a>
+              </li>
+              <li>
+                <a href="#">delivery</a>
+              </li>
+              <li>
+                <a href="#blog-post">blog</a>
+              </li>
+              <li>
+                <a href="#about-us">about</a>
+              </li>
+              <li>
+                <a href="#footer">contacts</a>
+              </li>
+            </ul>
+            <div class="main-search-bar">
+              <input
+                type="search"
+                class="mmenu-search-input"
+                placeholder="Search"
+              />
+              <img
+                src="icon/search.svg"
+                alt="Search icon"
+                id="mmenu-search-icon"
+              />
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="ht-m-sticky">
+        <div class="ht-current-m">
+          <div class="icon-left">
+            <img src="icon/menu.svg" alt="Menu-Open" class="popup-open" />
+            <img
+              src="icon/popup-close.svg"
+              alt="Menu-Close"
+              class="popup-close"
+            />
+          </div>
+          <div class="ht-contact">
+            <a href="tel:614-7343-3254" class="ht-contact-tel"
+              >+614 7343 3254</a
+            >
+          </div>
+          <div class="main-logo-m">
+            <a href="index.html">
+              <img src="image/logo-m.svg" alt="" class="mlogo-m" />
+            </a>
+            <a href="index.html">
+              <img src="image/logo-s.svg" alt="" class="mlogo-s" />
+            </a>
+          </div>
+          <div class="ubs-right">
+            <div class="search-right">
+              <img src="icon/search.svg" alt="Searching" />
+            </div>
+            <div class="user-right">
+              <img src="icon/user.svg" alt="User Popup" />
+            </div>
+            <div class="basket-right">
+              <img src="icon/basket.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="m-popup">
+        <div class="m-popup-box">
+          <div class="popup-catalog">
+            <div class="p-catalog-box">
+              <span>catalog</span>
+              <ul>
+                <li><a href="#">Dried apricots</a></li>
+                <li><a href="#">Raisins</a></li>
+                <li><a href="#">Pine nut</a></li>
+                <li><a href="#">Pine pillow</a></li>
+                <li><a href="#">Sale</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="popup-menu">
+            <div class="pm-box">
+              <ul>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacts</a></li>
+              </ul>
+            </div>
+            <div class="pm-contact">
+              <div class="p-contact-box">
+                <a href="tel:614-7343-3254">+614 7343 3254</a>
+                <a href="://carera@gmail.com">Carera@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="catalog-wrap">
+          <ul class="catalog-list">
+            <li>
+              <img src="icon/catalog-current.svg" class="catalog-current" />
+              <a href="#" class="li-clicked">Dried apricots</a>
+            </li>
+            <li>
+              <img
+                src="icon/catalog-current.svg"
+                class="catalog-current hide"
+              />
+              <a href="#">Raisins</a>
+            </li>
+            <li>
+              <img
+                src="icon/catalog-current.svg"
+                class="catalog-current hide"
+              />
+              <a href="#">Pine nut</a>
+            </li>
+            <li>
+              <img
+                src="icon/catalog-current.svg"
+                class="catalog-current hide"
+              />
+              <a href="#">Pine pillow</a>
+            </li>
+            <li>
+              <img
+                src="icon/catalog-current.svg"
+                class="catalog-current hide"
+              />
+              <a href="#">Sale</a>
+            </li>
+          </ul>
+          <div class="catalog-container">
+            <ul class="bread-crumbs">
+              <li>Home</li>
+              <li>Catalog</li>
+              <li>Dried apricots</li>
+            </ul>
+            <div class="catalog__inner">
+              <h1 id="catalog-title">Dried apricots</h1>
+              <div class="catalog-box">
+                <section>
+                  <div class="c-img-box">
+                    <img src="image/yongoq-s.png" alt="Pine pillow" />
+                  </div>
+                  <div class="c-content">
+                    <h5>Pillows With Cedar Filler</h5>
+                    <span>$450/per kg</span>
+                    <div class="c-card">
+                      <div class="ccard-box">
+                        <select name="HPCard">
+                          <option value="0">250 g</option>
+                          <option value="1">500 g</option>
+                          <option value="2">1 kg</option>
+                          <option value="3">2 kg</option>
+                          <option value="4">5 kg</option>
+                          <option value="5">10 kg</option>
+                        </select>
+                        <div class="ccard-amount">
+                          <div class="ccard-plus">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                          <span>1</span>
+                          <div class="ccard-minus">
+                            <i class="fas fa-minus"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="ccard-submit">Add to card</button>
+                    </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="c-img-box">
+                    <img src="image/dried-apricots.png" alt="Pine pillow" />
+                  </div>
+                  <div class="c-content">
+                    <h5>Pillows With Cedar Filler</h5>
+                    <span>$450/per kg</span>
+                    <div class="c-card">
+                      <div class="ccard-box">
+                        <select name="HPCard">
+                          <option value="0">250 g</option>
+                          <option value="1">500 g</option>
+                          <option value="2">1 kg</option>
+                          <option value="3">2 kg</option>
+                          <option value="4">5 kg</option>
+                          <option value="5">10 kg</option>
+                        </select>
+                        <div class="ccard-amount">
+                          <div class="ccard-plus">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                          <span>1</span>
+                          <div class="ccard-minus">
+                            <i class="fas fa-minus"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="ccard-submit">Add to card</button>
+                    </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="c-img-box">
+                    <img src="image/raisins-s.png" alt="Pine pillow" />
+                  </div>
+                  <div class="c-content">
+                    <h5>Pillows With Cedar Filler</h5>
+                    <span>$450/per kg</span>
+                    <div class="c-card">
+                      <div class="ccard-box">
+                        <select name="HPCard">
+                          <option value="0">250 g</option>
+                          <option value="1">500 g</option>
+                          <option value="2">1 kg</option>
+                          <option value="3">2 kg</option>
+                          <option value="4">5 kg</option>
+                          <option value="5">10 kg</option>
+                        </select>
+                        <div class="ccard-amount">
+                          <div class="ccard-plus">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                          <span>1</span>
+                          <div class="ccard-minus">
+                            <i class="fas fa-minus"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="ccard-submit">Add to card</button>
+                    </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="c-img-box">
+                    <img src="image/footer-s-six.PNG" alt="Pine pillow" />
+                  </div>
+                  <div class="c-content">
+                    <h5>Pillows With Cedar Filler</h5>
+                    <span>$450/per kg</span>
+                    <div class="c-card">
+                      <div class="ccard-box">
+                        <select name="HPCard">
+                          <option value="0">250 g</option>
+                          <option value="1">500 g</option>
+                          <option value="2">1 kg</option>
+                          <option value="3">2 kg</option>
+                          <option value="4">5 kg</option>
+                          <option value="5">10 kg</option>
+                        </select>
+                        <div class="ccard-amount">
+                          <div class="ccard-plus">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                          <span>1</span>
+                          <div class="ccard-minus">
+                            <i class="fas fa-minus"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="ccard-submit">Add to card</button>
+                    </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="c-img-box">
+                    <img src="image/orik-s.png" alt="Pine pillow" />
+                  </div>
+                  <div class="c-content">
+                    <h5>Pillows With Cedar Filler</h5>
+                    <span>$450/per kg</span>
+                    <div class="c-card">
+                      <div class="ccard-box">
+                        <select name="HPCard">
+                          <option value="0">250 g</option>
+                          <option value="1">500 g</option>
+                          <option value="2">1 kg</option>
+                          <option value="3">2 kg</option>
+                          <option value="4">5 kg</option>
+                          <option value="5">10 kg</option>
+                        </select>
+                        <div class="ccard-amount">
+                          <div class="ccard-plus">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                          <span>1</span>
+                          <div class="ccard-minus">
+                            <i class="fas fa-minus"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="ccard-submit">Add to card</button>
+                    </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="c-img-box">
+                    <img src="image/footer-s-four.PNG" alt="Pine pillow" />
+                  </div>
+                  <div class="c-content">
+                    <h5>Pillows With Cedar Filler</h5>
+                    <span>$450/per kg</span>
+                    <div class="c-card">
+                      <div class="ccard-box">
+                        <select name="HPCard">
+                          <option value="0">250 g</option>
+                          <option value="1">500 g</option>
+                          <option value="2">1 kg</option>
+                          <option value="3">2 kg</option>
+                          <option value="4">5 kg</option>
+                          <option value="5">10 kg</option>
+                        </select>
+                        <div class="ccard-amount">
+                          <div class="ccard-plus">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                          <span>1</span>
+                          <div class="ccard-minus">
+                            <i class="fas fa-minus"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="ccard-submit">Add to card</button>
+                    </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="c-img-box">
+                    <img src="image/raisins-s.png" alt="Pine pillow" />
+                  </div>
+                  <div class="c-content">
+                    <h5>Pillows With Cedar Filler</h5>
+                    <span>$450/per kg</span>
+                    <div class="c-card">
+                      <div class="ccard-box">
+                        <select name="HPCard">
+                          <option value="0">250 g</option>
+                          <option value="1">500 g</option>
+                          <option value="2">1 kg</option>
+                          <option value="3">2 kg</option>
+                          <option value="4">5 kg</option>
+                          <option value="5">10 kg</option>
+                        </select>
+                        <div class="ccard-amount">
+                          <div class="ccard-plus">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                          <span>1</span>
+                          <div class="ccard-minus">
+                            <i class="fas fa-minus"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="ccard-submit">Add to card</button>
+                    </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="c-img-box">
+                    <img src="image/yongoq-s.png" alt="Pine pillow" />
+                  </div>
+                  <div class="c-content">
+                    <h5>Pillows With Cedar Filler</h5>
+                    <span>$450/per kg</span>
+                    <div class="c-card">
+                      <div class="ccard-box">
+                        <select name="HPCard">
+                          <option value="0">250 g</option>
+                          <option value="1">500 g</option>
+                          <option value="2">1 kg</option>
+                          <option value="3">2 kg</option>
+                          <option value="4">5 kg</option>
+                          <option value="5">10 kg</option>
+                        </select>
+                        <div class="ccard-amount">
+                          <div class="ccard-plus">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                          <span>1</span>
+                          <div class="ccard-minus">
+                            <i class="fas fa-minus"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="ccard-submit">Add to card</button>
+                    </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="c-img-box">
+                    <img src="image/footer-s-five.PNG" alt="Pine pillow" />
+                  </div>
+                  <div class="c-content">
+                    <h5>Pillows With Cedar Filler</h5>
+                    <span>$450/per kg</span>
+                    <div class="c-card">
+                      <div class="ccard-box">
+                        <select name="HPCard">
+                          <option value="0">250 g</option>
+                          <option value="1">500 g</option>
+                          <option value="2">1 kg</option>
+                          <option value="3">2 kg</option>
+                          <option value="4">5 kg</option>
+                          <option value="5">10 kg</option>
+                        </select>
+                        <div class="ccard-amount">
+                          <div class="ccard-plus">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                          <span>1</span>
+                          <div class="ccard-minus">
+                            <i class="fas fa-minus"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="ccard-submit">Add to card</button>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div id="load-more">
+                <img src="icon/more.svg" alt="Load more" />
+                <span>Load more</span>
+              </div>
+              <div class="catalog-text">
+                <span>Bakaliowo</span>
+                <p>
+                  — как следует из названия - оптовые сушеные фрукты и орехи.
+                  Широкий ассортимент нашего интернет-магазина предлагает
+                  деликатесы на масштабе, только тщательно отобранные продукты с
+                  прекрасным вкусом и отличной питательной ценностью. Как
+                  оценивается оптом сухофрукты и орехи придают большое значение
+                  удовлетворению всех наших клиентов, поэтому постоянно
+                  расширяем наш ассортимент новых продуктов. В нашем
+                  интернет-магазине с орехами, изюмом и орехами, мы предлагаем
+                  Вам важность деликатесов в очень доступной цене, поэтому
+                  убедитесь, что вы покупаете у нас удовлетворительное.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="some">
+      <div class="bir"></div>
+      <div class="ikki"></div>
+      <div class="ikki"></div>
+      <div class="uch"></div>
+      <div class="ikki"></div>
+    </div>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-content-box">
+          <div class="footer-content">
+            <div class="footer-contact">
+              <h6>&copy; Cerera 2020</h6>
+              <p>45 Crescent Road Pinetree Avenue P.O. Box 3242</p>
+              <a href="tel:6147343-3254">+614 7343 3254</a>
+              <div class="fc-social">
+                <div class="fc-facebook">
+                  <a href="https://facebook.com">
+                    <img src="icon/fc-facebook.svg" alt="Facebook" />
+                  </a>
+                </div>
+                <div class="fc-twitter">
+                  <a href="https://twitter.com">
+                    <img src="icon/fc-twitter.svg" alt="Twitter" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="footer-catalog">
+              <h6>Catalog</h6>
+              <a href="#">Dried apricots</a>
+              <a href="#">Raisins</a><br />
+              <a href="#">Pine nut</a><br />
+              <a href="#">Pine pillow</a><br />
+              <a href="#">Sale</a>
+            </div>
+            <div class="footer-menu">
+              <h6>Menu</h6>
+              <a href="#">Delivery</a>
+              <a href="#">Blog</a>
+              <a href="#">About</a>
+              <a href="#">Contacts</a>
+            </div>
+            <div class="footer-insta">
+              <h6>
+                Instagram
+                <a href="https://instagram.com" class="fi-link">#Cerera</a>
+              </h6>
+              <div class="fi-box">
+                <div class="fi-content">
+                  <img src="image/footer-s-one.PNG" alt="Nuts" />
+                </div>
+                <div class="fi-content">
+                  <img src="image/footer-s-two.PNG" alt="Dried Peaches" />
+                </div>
+                <div class="fi-content">
+                  <img src="image/footer-s-three.PNG" alt="Oaks" />
+                </div>
+                <div class="fi-content">
+                  <img src="image/footer-s-four.PNG" alt="Dried Peaches" />
+                </div>
+                <div class="fi-content">
+                  <img src="image/footer-s-five.PNG" alt="Oaks" />
+                </div>
+                <div class="fi-content">
+                  <img src="image/footer-s-six.PNG" alt="Dried Peaches" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="up">
+            <img src="icon/up.svg" alt="Move Up" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="plugin/jquery-3.4.1.min.js"></script>
+    <script src="plugin/fontawesome/all.min.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/catalog.js"></script>
+  </body>
+</html>
